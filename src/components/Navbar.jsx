@@ -11,6 +11,7 @@ function Navbar() {
         <li><Link to="/"><img src={viteLogo} className="logo" alt="Vite logo" /></Link></li>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/login">Login</Link></li>
+        <li><Link to="/users">Users</Link></li>
       </ul>
       <ul className="nav-right">
         <li><Link to="/signup">Sign Up</Link></li>
