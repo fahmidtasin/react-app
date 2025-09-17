@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -6,8 +11,8 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 2em;
+  padding: 0em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -39,4 +44,88 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #20232a;
+  padding: 15px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+.content {
+  padding-top: 70px;
+}
+
+.clock  {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(19, 11, 11);
+  color: red;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.nav-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar .nav-right {
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin-right: 50px;
 }
