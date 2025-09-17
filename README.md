@@ -48,10 +48,7 @@ react-app/
 ```bash
 git clone https://github.com/fahmidtasin/react-app.git
 
-
----
-
-## Project Structure
+## Project Run
 
 1. Go into the project folder:
 
