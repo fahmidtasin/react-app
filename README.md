@@ -18,8 +18,8 @@ It includes a **fixed Navbar**, a **live Clock**, and **Login/SignUp pages** wit
 ---
 
 ## Project Structure
-
-react-app/
+```bash
+rreact-app/
 │
 ├─ public/
 │
@@ -27,18 +27,18 @@ react-app/
 │ ├─ assets/
 │ ├─ components/
 │ │ ├─ Navbar.jsx
-│ │ ├─ Clock.jsx
+│ │ └─ Clock.jsx
 │ ├─ pages/
 │ │ ├─ Home.jsx
 │ │ ├─ Login.jsx
 │ │ └─ SignUp.jsx
 │ ├─ App.jsx
-│ ├─ App.css
+│ └─ App.css
 │
 ├─ index.html
 ├─ package.json
-├─ vite.config.js
-
+└─ vite.config.js
+```
 ---
 
 ## Installation
@@ -47,20 +47,21 @@ react-app/
 
 ```bash
 git clone https://github.com/fahmidtasin/react-app.git
+```
 
 ## Project Run
 
 1. Go into the project folder:
-
+```bash
 cd react-app
-
+```
 2. Install dependencies:
-
+```bash
 npm install
-
+```
 3. Running the Project
-
+```bash
 npm run dev
-
+```
 
 Open your browser at http://localhost:5173 (Vite default port).
