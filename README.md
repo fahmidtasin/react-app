@@ -27,17 +27,17 @@ react-app/
 │ ├─ assets/
 │ ├─ components/
 │ │ ├─ Navbar.jsx
-│ │ └─ Clock.jsx
+│ │ ├─ Clock.jsx
 │ ├─ pages/
 │ │ ├─ Home.jsx
 │ │ ├─ Login.jsx
 │ │ └─ SignUp.jsx
 │ ├─ App.jsx
-│ └─ App.css
+│ ├─ App.css
 │
 ├─ index.html
 ├─ package.json
-└─ vite.config.js
+├─ vite.config.js
 
 ---
 
