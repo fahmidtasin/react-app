@@ -135,9 +135,9 @@ body {
 .login-container {
   max-width: 400px;
   margin: 150px auto 50px auto; /* centered vertically & horizontally */
-  padding: 2rem;
+  padding: 5rem;
   background-color: #110f0f;
-  border-radius: 10px;
+  border-radius: 100px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   text-align: center;
 }
